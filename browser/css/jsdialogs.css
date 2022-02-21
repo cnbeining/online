@@ -77,7 +77,7 @@
 	background-position: center top;
 	background-size: 14px 1px;
 	background-repeat: repeat-x;
-	box-shadow: inset 0 1px 0 0 var(--color-border-lighter);
+	box-shadow: inset 0 1px 0 0 var(--color-main-background);
 }
 
 td.jsdialog:hover *,
