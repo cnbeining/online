@@ -35,7 +35,7 @@ RUN rm -rf /install-collabora-online-ubuntu.sh
 # Start script for Collabora Online
 ADD /scripts/start-collabora-online.sh /
 
-EXPOSE 443
+EXPOSE 10000
 
 # switch to cool user (use numeric user id to be compatible with Kubernetes Pod Security Policies)
 USER 104
