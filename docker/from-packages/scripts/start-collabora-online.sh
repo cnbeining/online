@@ -62,4 +62,4 @@ fi
 coolwsd-generate-proof-key
 
 # Start coolwsd
-exec /usr/bin/coolwsd --version --port:443 --o:sys_template_path=/opt/cool/systemplate --o:child_root_path=/opt/cool/child-roots --o:file_server_root_path=/usr/share/coolwsd --o:logging.color=false ${extra_params}
+exec /usr/bin/coolwsd --version --port:10000 --o:sys_template_path=/opt/cool/systemplate --o:child_root_path=/opt/cool/child-roots --o:file_server_root_path=/usr/share/coolwsd --o:logging.color=false ${extra_params}
