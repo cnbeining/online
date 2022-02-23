@@ -38,7 +38,6 @@ ADD /scripts/start-collabora-online.sh /
 EXPOSE 10000
 
 # switch to cool user (use numeric user id to be compatible with Kubernetes Pod Security Policies)
-USER 104
 
 # Entry point
 CMD ["/start-collabora-online.sh"]
